@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Eduapp"
+        tools:targetApi="31">
+        <activity
+            android:name=".Syllab6"
+            android:exported="false" />
+        <activity
+            android:name=".Syllab5"
+            android:exported="false" />
+        <activity
+            android:name=".Syllab4"
+            android:exported="false" />
+        <activity
+            android:name=".Syllab3"
+            android:exported="false" />
+        <activity
+            android:name=".Syllab2"
+            android:exported="false" />
+        <activity
+            android:name=".Syllab1"
+            android:exported="false" />
+        <activity
+            android:name=".Qpretrive1"
+            android:exported="false" />
+        <activity
+            android:name=".Importantqest"
+            android:exported="false" />
+        <activity
+            android:name=".Questionpaper"
+            android:exported="false" />
+        <activity
+            android:name=".RetrievePDF06"
+            android:exported="false" />
+        <activity
+            android:name=".RetrievePDF05"
+            android:exported="false" />
+        <activity
+            android:name=".RetrivePDF04"
+            android:exported="false" />
+        <activity
+            android:name=".RetrivePDF03"
+            android:exported="false" />
+        <activity
+            android:name=".RetrievePDF02"
+            android:exported="false" />
+        <activity
+            android:name=".RetrievePDF01"
+            android:exported="false" />
+        <activity
+            android:name=".Sixthsemcse"
+            android:exported="false" />
+        <activity
+            android:name=".RetrieveIsecse"
+            android:exported="false" />
+        <activity
+            android:name=".RetrievePDF1"
+            android:exported="false" />
+        <activity
+            android:name=".RetrievePDF"
+            android:exported="false" />
+        <activity
+            android:name=".Eighthsem"
+            android:exported="false" />
+        <activity
+            android:name=".Seventhsem"
+            android:exported="false" />
+        <activity
+            android:name=".Sixthsem"
+            android:exported="false" />
+        <activity
+            android:name=".Fifthsem"
+            android:exported="false" />
+        <activity
+            android:name=".Fourthsem"
+            android:exported="false" />
+        <activity
+            android:name=".Thirdsem"
+            android:exported="false" />
+        <activity
+            android:name=".Ise"
+            android:exported="false" />
+        <activity
+            android:name=".Cse"
+            android:exported="false" />
+        <activity
+            android:name=".Physics"
+            android:exported="false" />
+        <activity
+            android:name=".Register_activity"
+            android:exported="false" />
+        <activity
+            android:name=".splash_activity"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login_activity"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

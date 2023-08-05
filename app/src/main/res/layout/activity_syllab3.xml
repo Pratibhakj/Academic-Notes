@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Syllab3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:text="MANAGEMENT AND ENTREPRENEURSHIP FOR IT INDUSTRY
+\nModule – 1
+Introduction - Meaning, nature and characteristics of management, scope and Functional
+areas of management, goals of management, levels of management, brief overview of
+evolution of management theories,. Planning- Nature, importance, types of plans planning, Organizing- nature and purpose, types of Organization, Staffing- meaning,
+process of recruitment and selection
+\nModule – 2
+Directing and controlling- meaning and nature of directing, leadership styles, motivation
+Theories, Communication- Meaning and importance, Coordination- meaning and
+importance, Controlling- meaning, steps in controlling, methods of establishing control.
+Entrepreneur – meaning of entrepreneur, characteristics of entrepreneurs, classification
+and types of entrepreneurs, various stages in the entrepreneurial process, the role of entrepreneurs
+in economic development, entrepreneurship in India
+\nModule – 3
+Preparation of project and ERP - meaning of project, project identification, project
+selection, project report, need and significance of project report, contents,
+formulation, guidelines by planning commission for project report, Enterprise Resource
+Planning: Meaning and Importance- ERP and Functional areas of Management
+\nModule – 5
+Micro and Small Enterprises: Definition of micro and small enterprises, characteristics
+and advantages of micro and small enterprises, steps in establishing micro and small
+enterprises, Government of India indusial policy 2007 on micro and small enterprises, case
+study (Microsoft), Case study(Captain G R Gopinath),case study (N R Narayana Murthy
+Infosys)
+\nCOMPUTER NETWORKS AND SECURITY
+\nModule 1
+Application Layer: Principles of Network Applications: Network Application Architectures,
+Processes Communicating, Transport Services Available to Applications, Transport Services
+Provided by the Internet, Application-Layer Protocols. The Web and HTTP: Overview of
+HTTP, Non-persistent and Persistent Connections, HTTP Message Format, User-Server
+Interaction: Cookies, Web Caching, The Conditional GET, File Transfer: FTP Commands
+Replies
+\nModule 2
+Transport Layer : Introduction and Transport-Layer Services: Relationship Between
+Transport and Network Layers, Overview of the Transport Layer in the Internet,
+Multiplexing and Demultiplexing: Connectionless Transport: UDP,UDP Segment Structure,
+UDP Checksum, Principles of Reliable Data Transfer: Building a Reliable Data Transfer
+Protocol, Pipelined Reliable Data Transfer Protocols, Go-Back-N, Selective repeat,
+Connection-Oriented Transport TCP: The TCP Connection, TCP Segment Structure
+\nModule 3
+The Network layer: What's Inside a Router?: Input Processing, Switching, Output
+Processing, Where Does Queuing Occur? Routing control plane, IPv6,A Brief foray into IP
+Security, Routing Algorithms: The Link-State (LS) Routing Algorithm
+\nModule 4
+Network Security:Overview of Network Security:Elements of Network Security ,
+Classification of Network Attacks ,Security Methods , Symmetric-Key Cryptography :Data
+Encryption Standard (DES),Advanced Encryption Standard (AES) , Public-Key
+Cryptography
+\nModule 5
+Multimedia Networking: Properties of video, properties of Audio, Types of multimedia
+Network Applications, Streaming stored video: UDP Streaming, HTTP Streaming, Adaptive
+streaming and DASH, content distribution Networks
+\nDATABASE MANAGEMENT SYSTEM
+\nModule 1
+Introduction to Databases: Introduction, Characteristics of database approach, Advantages
+of using the DBMS approach, History of database applications. Overview of Database
+Languages and Architectures: Data Models, Schemas, and Instances.
+\nModule 2
+Relational Model: Relational Model Concepts, Relational Model Constraints and relational
+database schemas, Update operations, transactions, and dealing with constraint violations.
+Relational Algebra: Unary and Binary relational operations, additional relational operations
+(aggregate, grouping, etc.) Examples of Queries in relational algebra
+\nModule 3
+SQL : Advances Queries: More complex SQL retrieval queries, Specifying constraints as
+assertions and action triggers, Views in SQL, Schema change statements in SQL. Database
+\nModule 4
+Normalization: Database Design Theory – Introduction to Normalization using Functional
+and Multivalued Dependencies: Informal design guidelines for relation schema, Functional
+Dependencies, Normal Forms based on Primary Keys, Second and Third Normal Forms,
+Boyce-Codd Normal Form, Multivalued Dependency and Fourth Normal Form, Join
+Dependencies and Fifth Normal Form. Normalization Algorithms
+\nModule 5
+Transaction Processing: Introduction to Transaction Processing, Transaction and System
+concepts, Desirable properties of Transactions, Characterizing schedules based on
+recoverability, Characterizing schedules based on Serializability, Transaction support in
+SQL. Concurrency Control in Databases: Two-phase locking techniques for Concurrency
+control, Concurrency control based on Timestamp ordering, Multiversion Concurrency
+control techniques, Validation Concurrency control techniques, Granularity of Data items and
+Multiple Granularity Locking.
+\nUNIX PROGRAMMING
+\nModule 1
+Introduction: Unix Components/Architecture. Features of Unix. The UNIX Environment
+and UNIX Structure, Posix and Single Unix specification. General features of Unix
+commands/ command structure. Command arguments and options. Basic Unix commands
+such as echo, printf, ls, who, date,passwd, cal, Combining commands. Meaning of Internal
+and external commands. The type command: knowing the type of a command and locating it.
+The root login. Becoming the super user: su command.
+\nModule 2
+File attributes and permissions: The ls command with options. Changing file permissions:
+the relative and absolute permissions changing methods. Recursively changing file
+permissions. Directory permissions.
+\nModule 3
+UNIX File APIs: General File APIs, File and Record Locking, Directory File APIs, Device
+File APIs, FIFO File APIs, Symbolic Link File APIs.
+UNIX Processes and Process Control:
+The Environment of a UNIX Process: Introduction, main function, Process Termination,
+Command-Line Arguments, Environment List, Memory Layout of a C Program, Shared
+Libraries, Memory Allocation
+\nModule 4
+Changing User IDs and Group IDs, Interpreter Files, system Function, Process Accounting,
+User Identification, Process Times, I/O Redirection.
+Overview of IPC Methods, Pipes, popen, pclose Functions, Coprocesses, FIFOs, System V
+IPC, Message Queues, Semaphores
+\nModule 5
+Signals and Daemon Processes: Signals: The UNIX Kernel Support for Signals, signal,
+Signal Mask, sigaction, The SIGCHLD Signal and the waitpid Function, The sigsetjmp and
+siglongjmp Functions, Kill, Alarm, Interval Timers, POSIX.lb Timers. Daemon Processes:
+\nAPPLICATION DEVELOPMENT USING PYTHON
+\nModule – 1
+Python Basics, Entering Expressions into the Interactive Shell, The Integer, Floating-Point,
+and String Data Types, String Concatenation and Replication, Storing Values in Variables,
+Your First Program, Dissecting Your Program,Flow control, Boolean Values, Comparison
+Operators, Boolean Operators,Mixing Boolean and Comparison Operators, Elements of Flow
+Control, Program Execution, Flow Control Statements, Importing Modules,Ending a
+Program Early with sys.exit()
+\nModule – 2
+Lists, The List Data Type, Working with Lists, Augmented Assignment Operators, Methods,
+Example Program: Magic 8 Ball with a List, List-like Types: Strings and Tuples,References,
+Dictionaries and Structuring Data, The Dictionary Data Type, Pretty Printing, Using Data
+Structures to Model Real-World Things, Manipulating Strings
+\nModule – 3
+Pattern Matching with Regular Expressions, Finding Patterns of Text Without Regular
+Expressions, Finding Patterns of Text with Regular Expressions,More Pattern Matching with
+Regular Expressions, Greedy and Nongreedy Matching, The findall() Method, Character
+Classes, Making Your Own Character Classes, The Caret and Dollar Sign Characters, The
+Wildcard Character, Review of Regex Symbols, Case-Insensitive Matching, Substituting
+Strings with the sub() Method
+\nModule – 4
+Classes and objects, Programmer-defined types, Attributes, Rectangles, Instances as return
+values, Objects are mutable, Copying, Classes and functions, Time, Pure functions,
+Modifiers, Prototyping versus planning, Classes and methods, Object-oriented features,
+Printing objects, Another example, A more complicated example,The init method, The
+__str__ method
+\nModule – 5
+Web Scraping, Project: MAPIT.PY with the webbrowser Module, Downloading Files from
+the Web with the requests Module, Saving Downloaded Files to the Hard Drive, HTML,
+Parsing HTML with the BeautifulSoup Module, Project: “I’m Feeling Lucky” Google
+Search,Project: Downloading All XKCD Comics, Controlling the Browser with the selenium
+Module, Working with Excel Spreadsheets, Excel Documents, Installing the openpyxl
+Module, Reading Excel Documents, Project: Reading Data from a Spreadsheet, Writing
+Excel Documents
+\nAUTOMATA THEORY AND COMPUTABILITY
+\nModule 1
+Why study the Theory of Computation, Languages and Strings: Strings, Languages. A
+Language Hierarchy, Computation, Finite State Machines (FSM): Deterministic FSMRegular languages, Designing FSM, Nondeterministic FSMs, From FSMs to Operational
+Systems, Simulators for FSMs, Minimizing FSMs
+\nModule 2
+Regular Expressions (RE): what is a RE?, Kleene’s theorem, Applications of REs,
+Manipulating and Simplifying REs. Regular Grammars: Definition, Regular Grammars and
+Regular languages. Regular Languages (RL) and Non-regular Languages: How many RLs,
+To show that a language is regular, Closure properties of RLs, to show some languages are
+not RLs.
+\nModule 3
+Context-Free Grammars(CFG): Introduction to Rewrite Systems and Grammars, CFGs
+and languages, designing CFGs, simplifying CFGs, proving that a Grammar is correct,
+Derivation and Parse trees, Ambiguity, Normal Forms. Pushdown Automata (PDA):
+Definition of non-deterministic PDA, Deterministic and Non-deterministic PDAs, Nondeterminism
+and Halting, alternative equivalent definitions of a PDA, alternatives that are not
+equivalent to PDA
+\nModule 4
+Algorithms and Decision Procedures for CFLs: Decidable questions, Un-decidable
+questions. Turing Machine: Turing machine model, Representation, Language acceptability
+by TM, design of TM, Techniques for TM construction. Variants of Turing Machines (TM),
+The model of Linear Bounded automata.
+\nModule 5
+Decidability: Definition of an algorithm, decidability, decidable languages, Undecidable
+languages, halting problem of TM, Post correspondence problem. Complexity: Growth rate
+08
+of functions, the classes of P and NP, Quantum Computation: quantum computers, Church-
+Turing thesis. Applications: G.1 Defining syntax of programming language, Appendix J:
+Security" />
+    </ScrollView>
+
+</RelativeLayout>

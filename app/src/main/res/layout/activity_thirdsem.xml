@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Thirdsem">
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="16dp"
+        android:id="@+id/c1">
+
+        <TextView
+            android:id="@+id/pdf_name"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:onClick="retrievePDF01"
+            android:text="Mathematics(M3)"
+            android:textColor="@color/black" />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="16dp"
+        android:layout_below="@+id/c1">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:onClick="retrievePDF02"
+            android:text="Data Structure And Application"
+            android:textColor="@color/black" />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="16dp"
+        android:id="@+id/c3"
+        android:layout_below="@+id/c2">
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:onClick="retrievePDF"
+            android:text="Computer Organization"
+            android:textColor="@color/black" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="16dp"
+        android:id="@+id/c5"
+        android:layout_below="@+id/c3">
+
+        <TextView
+            android:id="@+id/name3"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:onClick="retrievePDF03"
+            android:text="Discrete Mathematical Structure"
+            android:textColor="@color/black" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="16dp"
+        android:id="@+id/c6"
+        android:layout_below="@+id/c5">
+
+        <TextView
+            android:id="@+id/name4"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:onClick="retrievePDF04"
+            android:text="Analog and Digital Electonics"
+            android:textColor="@color/black" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="16dp"
+        android:id="@+id/c7"
+        android:layout_below="@+id/c6">
+
+        <TextView
+            android:id="@+id/name5"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:onClick="retrievePDF05"
+            android:text="Software Engineering"
+            android:textColor="@color/black" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

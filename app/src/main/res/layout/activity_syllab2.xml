@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Syllab2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:text="COMPLEX ANALYSIS, PROBABILITY AND STATISTICAL METHODS
+\nModule-1 :
+Calculus of complex functions: Review of function of a complex variable, limits, continuity, and
+differentiability. Analytic functions: Cauchy-Riemann equations in Cartesian and polar forms and
+consequences.
+Construction of analytic functions: Milne-Thomson method-Problems.
+\nModule-2:
+Conformal transformations: Introduction. Discussion of transformations: Bilinear transformations- Problems.
+Complex integration: Line integral of a complex function-Cauchy’s theorem and Cauchy’s integral formula
+\nModule-3
+Probability Distributions: Review of basic probability theory. Random variables (discrete and continuous),
+probability mass/density functions. Binomial, Poisson, exponential and normal distributions- problems
+\nModule-4
+Statistical Methods: Correlation and regression-Karl Pearson’s coefficient of correlation and rank correlation
+-problems. Regression analysis- lines of regression –problems.
+Curve Fitting: Curve fitting by the method of least squares- fitting the curves of the form-
+\nModule-5
+Joint probability distribution: Joint Probability distribution for two discrete random variables, expectation
+and covariance.\n
+DESIGN AND ANALYSIS OF ALGORITHMS
+\nModule 1
+Introduction:
+ What is an Algorithm? (T2:1.1), Algorithm Specification (T2:1.2), Analysis Framework (T1:2.1), Performance Analysis: Space complexity, Time complexity (T2:1.3). Asymptotic Notations: Big-Oh notation (O), Omega notation (?), Theta notation (?),
+Problem Types: Sorting, Searching, String processing, Graph Problems, Combinatorial Problems.
+\nModule 2
+Divide and Conquer:
+ A general method, Binary search, Recurrence equation for divide and conquer, Finding the maximum and minimum (T2:3.1, 3.3, 3.4), Merge sort, Quicksort (T1:4.1, 4.2), Strassen’s matrix multiplication (T2:3.8), Advantages and Disadvantages of divide and conquer.
+\nModule 3
+Greedy Method:General method, Coin Change Problem, Knapsack Problem, Job sequencing with deadlines (T2:4.1, 4.3, 4.5).
+Minimum cost spanning trees: Prim’s Algorithm, Kruskal’s Algorithm (T1:9.1, 9.2).
+Single source shortest paths: Dijkstra's Algorithm
+\nModule 4
+Dynamic Programming: General method with Examples, Multistage Graphs (T2:5.1, 5.2).
+Transitive Closure: Warshall’s Algorithm, All Pairs Shortest Paths: Floyd's Algorithm, Optimal Binary Search Trees, Knapsack problem
+\nModule 5
+Backtracking: General method (T2:7.1), N-Queens problem (T1:12.1), Sum of subsets problem (T1:12.1), Graph coloring (T2:7.4), Hamiltonian cycles (T2:7.5). Branch and Bound: Assignment Problem, Travelling Sales Person problem (T1:12.2), 0/1 Knapsack problem (T2:8.2, T1:12.2): LC Branch and Bound solution (T2:8.2), FIFO Branch
+\nOPERATING SYSTEMS
+\nModule 1
+Introduction to operating systems, System structures: What operating systems do; Computer System organization; Computer System architecture; Operating System structure; Operating System operations; Process management; Memory management; Storage management
+\nModule 2
+Multi-threaded Programming: Overview; Multithreading models; Thread Libraries; Threading issues. Process Scheduling: Basic concepts; Scheduling Criteria; Scheduling Algorithms;
+\nModule 3
+Deadlocks : Deadlocks; System model; Deadlock characterization; Methods for handling deadlocks; Deadlock prevention; Deadlock avoidance; Deadlock detection and recovery from deadlock
+\nModule 4
+Virtual Memory Management: Background; Demand paging; Copy-on-write; Page replacement; Allocation of frames; Thrashing. File System, Implementation of File System: File system: File concept; Access methods; Directory structure; File system mounting
+\nModule 5
+Secondary Storage Structures, Protection: Mass storage structures; Disk structure; Disk attachment; Disk scheduling; Disk management; Swap space management. Protection: Goals of protection, Principles of protection, Domain of protection, Access matrix, Implementation of access matrix, Access control, Revocation of access rights, Capability- Based systems
+\nMICROCONTROLLER AND EMBEDDED SYSTEMS
+\nModule 1
+Microprocessors versus Microcontrollers, ARM Embedded Systems: The RISC design philosophy, The ARM Design Philosophy, Embedded System Hardware, Embedded System Software, ARM Processor Fundamentals:
+\nModule 2
+Microprocessors versus Microcontrollers, ARM Embedded Systems: The RISC design philosophy, The ARM Design Philosophy, Embedded System Hardware, Embedded System Software
+\nModule 3
+Embedded System Components: Embedded Vs General computing system, Classification of Embedded systems, Major applications and purpose of ES. Core of an Embedded System including all types of processor/controller, Memory, Sensors, Actuators, LED, 7 segment LED
+\nModule 4
+Embedded System Design Concepts: Characteristics and Quality Attributes of Embedded Systems, Operational and non-operational quality attributes, Embedded Systems-Application and Domain specific, Hardware Software Co-Design and Program Modeling, embedded firmware design and developmen
+\nModule 5
+RTOS and IDE for Embedded System Design: Operating System basics, Types of operating systems, Task, process and threads (Only POSIX Threads with an example program), Thread preemption, Preemptive Task scheduling techniques, Task 08
+Communication\n
+\nOBJECT ORIENTED CONCEPTS
+\nModule 1
+Introduction to Object Oriented Concepts:
+A Review of structures, Procedure–Oriented Programming system, Object Oriented Programming System, Comparison of Object Oriented Language with C, Console I/O, variables and reference variables, Function Prototyping, Function Overloading. Class and Objects:
+\nModule 2
+Introduction to Java: Java’s magic: the Byte code; Java Development Kit (JDK); the Java Buzzwords, Object-oriented programming; Simple Java programs. Data types, variables and arrays, Operators, Control Statements.
+\nModule 3
+Classes,Inheritance,Exceptions, Packages and Interfaces: Classes:Classes fundamentals;Declaring objects;Constructors, this keyword,garbage collection. Inheritance: inheritance basics, using super, creating multi-level hierarchy, method overriding. Exception handling
+\nModule 4
+Multi-Threaded Programming, Event Handling: Multi-Threaded Programming: What are threads? How to make the classes threadable; Extending threads; Implementing runnable; Synchronization; Changing state of the thread; Bounded buffer problems, read-write problem, producer-consumer problems. Event Handling: Two event handling mechanisms
+\nModule 5
+The Applet Class: Introduction, Two types of Applets; Applet basics; Applet Architecture; An Applet skeleton; Simple Applet display methods; Requesting repainting; Using the Status Window; The HTML APPLET tag; Passing parameters to Applets; getDocumentbase() and getCodebase(); ApletContext and show document();
+\nDATA COMMUNICATION
+\nModule 1
+Introduction: Data Communications, Networks, Network Types, Internet History, Standards and Administration, Networks Models: Protocol Layering, TCP/IP Protocol suite, The OSI model, Introduction to Physical Layer-1: Data and Signals, Digital Signals, Transmission Impairment, Data Rate limits, Performance
+\nModule 2
+Digital Transmission: Digital to digital conversion (Only Line coding: Polar, Bipolar and Manchester coding).
+Physical Layer-2: Analog to digital conversion (only PCM), Transmission Modes,
+Analog Transmission: Digital to analog conversion.
+\nModule 3
+Bandwidth Utilization: Multiplexing and Spread Spectrum,
+Switching: Introduction, Circuit Switched Networks and Packet switching.
+Error Detection and Correction: Introduction, Block coding, Cyclic codes, Checksum,
+\nModule 4
+Data link control: DLC services, Data link layer protocols, Point to Point protocol (Framing, Transition phases only).Media Access control: Random Access, Controlled Access and Channelization
+\nModule 5
+Wired LANs Ethernet: Ethernet Protocol, Standard Ethernet, Fast Ethernet, Gigabit Ethernet and 10 Gigabit Ethernet,
+Wireless LANs: Introduction, IEEE 802.11 Project and Bluetooth."
+            />
+    </ScrollView>
+
+</RelativeLayout>

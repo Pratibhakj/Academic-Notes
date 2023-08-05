@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Eduapp</string>
+    <string name="login">LOGIN</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="newacc">Create new Account</string>
+    <string name="google">Login with Google</string>
+    <string name="fgpassword">Forgot Password?</string>
+    <string name="btnlogin">Login</string>
+    <string name="oldacc">Already have account?</string>
+    <string name="register">REGISTER</string>
+    <string name="CSE">CSE</string>
+    <string name="ISE">ISE</string>
+    <string name="EEE">EEE</string>
+    <string name="ECE">ECE</string>
+    <string name="MECH">MECH</string>
+    <string name="CIVIL">CIVIL</string>
+    <string name="search">Search Here</string>
+    <string name="physics">Physics cycle</string>
+    <string name="chemistry">Chemistry cycle</string>
+
+</resources>

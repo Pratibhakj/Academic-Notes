@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Syllab5">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:text="ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING
+Module 1
+What is artificial intelligence?, Problems, problem spaces and search, Heuristic search techniques
+Module 2
+Knowledge representation issues, Predicate logic, Representaiton knowledge using rules.
+Concpet Learning: Concept learning task, Concpet learning as search, Find-S algorithm, Candidate Elimination Algorithm, Inductive bias of Candidate Elimination Algorithm.
+Module 3
+Decision Tree Learning: Introduction, Decision tree representation, Appropriate problems, ID3 algorith.
+Aritificil Nueral Network: Introduction, NN representation, Appropriate problems, Perceptrons, Backpropagation algorithm
+Module 4
+Bayesian Learning: Introduction, Bayes theorem, Bayes theorem and concept learning, ML and LS error hypothesis, ML for predicting, MDL principle, Bates optimal classifier,
+Gibbs algorithm, Navie Bayes classifier, BBN, EM Algorithm
+Module 5
+Instance-Base Learning: Introduction, k-Nearest Neighbour Learning, Locally weighted regression, Radial basis function, Case-Based reasoning.
+Reinforcement Learning: Introduction, The learning task, Q-Learning
+BIG DATA AND ANALYTICS
+Module 1
+Introduction to Big Data Analytics: Big Data, Scalability and Parallel Processing, Designing Data Architecture, Data Sources, Quality, Pre-Processing and Storing, Data Storage and Analysis,
+Big Data Analytics Applications and Case Studies.
+Module 2
+Introduction to Hadoop (T1): Introduction, Hadoop and its Ecosystem, Hadoop Distributed File System, MapReduce Framework and Programming Model, Hadoop Yarn, Hadoop Ecosystem Tools.
+Hadoop Distributed File System Basics (T2): HDFS Design Features, Components, HDFS User Commands
+Module 3
+NoSQL Big Data Management, MongoDB and Cassandra: Introduction, NoSQL Data Store, NoSQL Data Architecture Patterns, NoSQL to Manage Big Data, Shared-Nothing Architecture for Big Data Tasks,
+MongoDB, Databases, Cassandra Databases
+Module 4
+MapReduce, Hive and Pig: Introduction, MapReduce Map Tasks, Reduce Tasks and MapReduce Execution, Composing MapReduce for Calculations and Algorithms, Hive, HiveQL, Pig
+Module 5
+Machine Learning Algorithms for Big Data Analytics: Introduction, Estimating the relationships, Outliers, Variances, Probability Distributions, and Correlations,
+Regression analysis, Finding Similar Items, Similarity of Sets and Collaborative Filtering, Frequent Itemsets and Association Rule Mining."/>
+    </ScrollView>
+
+</RelativeLayout>

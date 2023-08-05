@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+DATASTRUCTURE:\nMODULE1
+
+Data Structures, Classifications (Primitive  Non Primitive), Data structure Operations, Review of Arrays, Structures, Self-Referential Structures, and Unions. Pointers and Dynamic Memory Allocation Functions. Representation of Linear Arrays in Memory, Dynamically allocated arrays.
+Array Operations:
+Traversing, inserting, deleting, searching, and sorting. Multidimensional Arrays, Polynomials and Sparse Matrices.
+Strings:
+Basic Terminology, Storing, Operations and Pattern Matching algorithms.
+        \nMODULE 2
+Stacks:
+Definition, Stack Operations, Array Representation of Stacks, Stacks using Dynamic Arrays, Stack Applications: Polish notation, Infix to postfix conversion, evaluation of postfix expression.
+Recursion -
+Factorial, GCD, Fibonacci Sequence, Tower of Hanoi, Ackerman's function.
+Queues:
+Definition, Array Representation, Queue Operations, Circular Queues, Circular queues using Dynamic arrays, Dequeues, Priority Queues, A Mazing Problem. Multiple Stacks and Queues. Programming Examples.
+\nMODULE 3 :Linked Lists: Definition, Representation of linked lists in Memory, Memory allocation; Garbage Collection. Linked list operations: Traversing, Searching, Insertion, and Deletion. Doubly Linked lists, Circular linked lists, and header linked lists. Linked Stacks and Queues.
+ Applications of Linked lists – Polynomials, Sparse matrix representation. Programming Examples.
+\nMODULE 4 :Trees: Terminology, Binary Trees, Properties of Binary trees, Array and linked Representation of Binary Trees, Binary Tree Traversals - Inorder, postorder, preorder; Additional Binary tree operations. Threaded binary trees, Binary Search Trees – Definition, Insertion, Deletion, Traversal, Searching, Application of Trees-Evaluation of Expression, Programming Examples
+\nMODULE 5 :Graphs: Definitions, Terminologies, Matrix and Adjacency List Representation Of Graphs, Elementary Graph operations, Traversal methods: Breadth First Search and Depth First Search.
+Sorting and Searching: Insertion Sort, Radix sort, Address Calculation Sort. Hashing: Hash Table organizations, Hashing Functions, Static and Dynamic Hashing.
+Files and Their Organization: Data Hierarchy, File Attributes, Text Files and Binary Files, Basic File Operations, File Organizations and Indexing
+Home
+\nTRANSFORM CALCULUS, FOURIER SERIES AND NUMERICAL TECHNIQUES :
+\nMODULE 1:Laplace Transforms Definition and Laplace transform of elementary functions. Laplace transforms of
+Periodic functions and unit-step function – problems.
+Inverse Laplace Transforms: Inverse Laplace transform - problems, Convolution theorem to find the inverse
+Laplace transform (without proof) and problems, solution of linear differential equations using Laplace
+transform.
+\nMODULE 2:Fourier Series: Periodic functions, Dirichlet’s condition. Fourier series of periodic functions period 2 and
+arbitrary period. Half range Fourier series. Practical harmonic analysis, examples from engineering field
+\nMODULE 3:Fourier Transforms: Infinite Fourier transforms, Fourier sine and cosine transforms. Inverse Fourier
+transforms. Simple problems.
+Difference Equations and Z-Transforms: Difference equations, basic definition, z-transform-definition,
+Standard z-transforms, Damping and shifting rules, initial value and final value theorems (without proof) and
+problems, Inverse z-transform. Simple problems
+\nMODULE 4:Numerical Solutions of Ordinary Differential Equations (ODE’s): Numerical solution of ODE’s of first
+order and first degree- Taylor’s series method, Modified Euler’s method. Range - Kutta method of fourth
+order, Milne’s and Adam-Bashforth predictor and corrector method (No derivations of formulae), Problems.
+\nMODULE 5:Numerical Solution of Second Order ODE’s: Runge -Kutta method and Milne’s predictor and corrector
+method.(No derivations of formulae).
+Calculus of Variations: Variation of function and functional, variational problems, Euler’s equation,
+Geodesics, hanging chain, problems.
+\nANALOG AND DIGITAL ELECTRONICS
+\nModule 1
+Optoelectronic Devices: Photodiodes, Phototransistors, Light Emitting Diodes, Liquid Crystal Displays, and Optocouplers.
+Linear Power Supplies: Linear IC Voltage, Regulated Power Suppy Parameters Operational
+\nModule 2
+Combinational Logic Circuits: Sum-of-Products Method, Truth Table to Karnaugh Map, Pairs Quads, and Octets, Karnaugh Simplifications, Don’t-care Conditions, Product-of-sums Method, Product-of-sums simplifications, Simplification by Quine-McClusky Method
+Introduction to HDL, HDL Implementation Models.
+\nModule 3
+Data-Processing Circuits: Multiplexers, Demultiplexers, 1-of-16 Decoder, BCD to Decimal Decoders, Seven Segment Decoders, Encoders, Exclusive-OR Gates, Parity Generators
+\nModule 4
+Flip- Flops: RS Flip-Flops, Gated Flip-Flops, Edge-triggered RS FLIP-FLOP, Edge-triggered D FLIP-FLOPs, Edge-triggered JK FLIP-FLOPs, FLIP-FLOP Timing, JK Master-slave FLIP-FLOP, HDL Implementation of FLIP-FLOP.
+\nModule 5
+Counters: Asynchronous Counters, Decoding Gates, Synchronous Counters, Changing the Counter Modulus, Decade Counters, Counter Design using HDL.
+COMPUTER ORGANIZATION
+\nModule 1
+Basic Structure of Computers: Basic Operational Concepts, Bus Structures, Performance – Processor Clock, Basic Performance Equation, Clock Rate, Performance Measurement. Machine Instructions and Programs
+\nModule 2
+Input/Output Organization: Accessing I/O Devices, Interrupts – Interrupt Hardware, Enabling and Disabling Interrupts, Handling Multiple Devices, Controlling Device Requests, Exceptions, Direct Memory Access, Buses,
+\nModule 3
+Memory System: Basic Concepts, Semiconductor RAM Memories, Read Only Memories, Speed, Size, and Cost, Cache Memories – Mapping Functions, Replacement Algorithms,
+\nModule 4
+Arithmetic: Numbers, Arithmetic Operations and Characters, Addition and Subtraction of Signed Numbers, Design of Fast Adders, Multiplication of Positive Numbers, Signed Operand Multiplication, Fast Multiplication, Integer Division, Floating-point Numbers and Operations.
+\nModule 5
+Basic Processing Unit: Some Fundamental Concepts, Execution of a Complete Instruction, Multiple Bus Organization, Hard-wired Control, Micro programmed Control. Pipelining,
+\nSOFTWARE ENGINEERING
+\nModule 1
+Introduction: Software Crisis, Need for Software Engineering. Professional Software Development, Software Engineering Ethics. Case Studies.
+Requirements Engineering: Requirements Engineering Processes (Chap 4). Requirements Elicitation and Analysis (Sec 4.5). Functional and non-functional requirements (Sec 4.1).
+\nModule 2
+System Models: Context models (Sec 5.1). Interaction models (Sec 5.2). Structural models (Sec 5.3). Behavioral models (Sec 5.4). Model-driven engineering (Sec 5.5).
+Design and Implementation: Introduction to RUP (Sec 2.4), Design Principles (Chap 17). Object-oriented design using the UML (Sec 7.1)
+Software Testing: Development testing (Sec 8.1), Test-driven development
+Software Evolution: Evolution processes (Sec 9.1). Program evolution dynamics
+\nModule 4
+Project Planning: Software pricing (Sec 23.1). Plan-driven development (Sec 23.2). Project scheduling (Sec 23.3): Estimation techniques (Sec 23.5). Quality management: Software quality (Sec 24.1)
+\nModule 5
+Agile Software Development: Coping with Change (Sec 2.3), The Agile Manifesto: Values and Principles. Agile methods: SCRUM (Ref “The SCRUM Primer, Ver 2.0”) and Extreme Programming
+\nDISCRETE MATHEMATICAL STRUCTURES
+\nModule 1
+Fundamentals of Logic: Basic Connectives and Truth Tables, Logic Equivalence – The Laws of Logic, Logical Implication – Rules of Inference. Fundamentals of Logic contd.: The Use of Quantifiers, Quantifiers, Definitions and the Proofs of Theorems.
+\nModule 2
+Properties of the Integers: The Well Ordering Principle – Mathematical Induction,
+Fundamental Principles of Counting: The Rules of Sum and Product, Permutations, Combinations – The Binomial Theorem, Combinations with Repetition
+\nModule 3
+Relations and Functions: Cartesian Products and Relations, Functions – Plain and One-to-One, Onto Functions. The Pigeon-hole Principle, Function Composition and Inverse Functions
+\nModule 4
+The Principle of Inclusion and Exclusion: The Principle of Inclusion and Exclusion, Generalizations of the Principle, Derangements – Nothing is in its Right Place, Rook Polynomials.
+\nModule 5
+Introduction to Graph Theory: Definitions and Examples, Sub graphs, Complements, and Graph Isomorphism,
+Trees: Definitions, Properties, and Examples, Routed Trees, Trees and Sorting, Weighted Trees and Prefix Codes"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+
+
+    </ScrollView>
+
+</RelativeLayout>
